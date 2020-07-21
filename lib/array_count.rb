@@ -3,7 +3,7 @@ def count_strings(array)
   array.count do |element|
     element.class == String
   end
-  #array.count { |element| element.class == String }
+  #array.count { |element| element.class == String } this is also an answer using curly brace
 end
 
 def count_empty_strings(array)
@@ -11,5 +11,5 @@ def count_empty_strings(array)
   array.count do |element|
     element == ""
   end
-  #array.count { |element| element == ""}
+  #array.count { |element| element == ""} same answer usng curly brace
 end
